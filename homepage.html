@@ -1,0 +1,23 @@
+<!doctype html>
+<!--Homepage-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="filesharing.css"> <!--link to CSS page -->
+		<title>File Sharing Site</title>
+	</head>
+	<body class="home">
+		<h1 class="homepage">David & Zach's File Sharing Site</h1> 
+	
+		<div class="box">
+			<form action="list.php" method="POST"> <!--link to our main upload page -->
+			<label> Enter Username: <input type="text" name="username"/></label> <!--Text Box-->
+			<input type="submit" value="Log-in" formaction="login.php"/> <!--Log in Button -->
+			<input type="submit" value="New User?" formaction="signup.php"/> <!--New User Button-->
+			</form>
+		</div> 
+		<p>
+			Enter your username and log-in!  New users can sign-up by typing their desired username and pressing New User.
+		</p>
+	
+	</body>
+</html>

@@ -1,0 +1,84 @@
+/* This is the only stylesheet used in this project*/
+
+h1.homepage {
+    color: #3D079B;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 350%;
+    font-family: Arial;
+}
+
+h1.h1list {
+    color: #3D079B;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 350%;
+    font-family: Arial;
+}
+
+p {
+    color: #3D079B;
+    text-align: center;
+}
+
+
+input[type=text] {
+    width: 30%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #5F07F6;
+}
+
+
+div.box {
+    text-align: center;
+}
+
+div.listdiv {
+    text-align: left;
+}
+
+label {
+    color: #5F07F6;
+    font-family: Arial;
+}
+
+
+body.home {
+    background-image: url("https://wallpaperbrowse.com/media/images/518164-backgrounds.jpg");
+    background-size: cover;
+}
+
+body.list {
+    background-image: url("https://wallpaperbrowse.com/media/images/518164-backgrounds.jpg");
+    background-size: cover;
+}
+
+form.upload {
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #5F07F6;
+}
+
+form.deleteAccount {
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #5F07F6;
+}
+
+form.logout {
+    box-sizing: border-box;
+    font-family: Arial;
+    color: #5F07F6;
+}
